@@ -1,0 +1,18 @@
+{
+    "silent": false,
+    "disable": false,
+    "forward": [
+        {
+            "silent": true,
+            "src": ":2222",
+            "label": "SSH Server 1",
+            "dst": "{{serverip}}:22"
+        },
+        {
+            "disable": false,
+            "type": "https",
+            "label": "Secure Web Server X",
+            "dst": "10.144.2.4:3002"
+        }
+    ]
+}
